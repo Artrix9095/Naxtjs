@@ -1,0 +1,26 @@
+{
+  "name": "naxtjs",
+  "bin": {
+    "naxt": "./dist/bin/naxt.js"
+  },
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/Artrix9095/Naxtjs.git",
+  "author": "Artrix <39530102+Artrix9095@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "solid-js": ">=1.4.0"
+  },
+  "peerDependenciesMeta": {
+    "solid-js": {
+      "optional": false
+    }
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "solid-js": "^1.4.6",
+    "vite": "^2.9.13",
+    "vite-plugin-solid": "^2.2.6"
+  }
+}
