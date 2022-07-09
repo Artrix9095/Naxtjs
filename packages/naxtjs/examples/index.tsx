@@ -1,5 +1,4 @@
-import { render } from "solid-js/web";
-import { createSignal } from "solid-js";
+import { createSignal } from 'solid-js';
 
 function Counter() {
   const [count, setCount] = createSignal(0);
@@ -12,4 +11,4 @@ function Counter() {
   );
 }
 
-render(() => <Counter />, document.getElementById("app")!);
+export default Counter;
